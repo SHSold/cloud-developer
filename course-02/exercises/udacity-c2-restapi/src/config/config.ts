@@ -6,7 +6,7 @@ export const config = {
     "host": "localhost",
     "dialect": "postgres",
     "aws_region": "us-east-1",
-    "aws_profile": "default",
+    "aws_profile": "stefan-dev",
     "aws_media_bucket": "stefan-udacity-dump"
   },
   "prod": {
