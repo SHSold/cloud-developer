@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID: udacity-cloud-dev-developer-chapter-3-project
+:END:
+#+TITLE: Project Udagram: Your Own Instagram
+#+FILETAGS: :udacity:nanodegree:cloud:building-and-deploying:Sequelize:
+#+STARTUP: entitiespretty overview
+#+OPTIONS: ^:nil
+
+* DONE Requirements [6/6]
++ [X] a (local) Git Repo
++ [X] Screenshots of the Elastic Beanstalk Application Dashboard after
+  Deployment (I hope this is what you wanted to see).
++ [X] Link to the endpoint URL for a running elastic beanstalk deployment:
+  You can try these:
+  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com
+  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=
+  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.hdwallpaper.nu/wp-content/uploads/2015/02/Funny-Cat-Hidden.jpg
+  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=asiuasoias;ivuse8w4we98p89f3wr8qw3rqw8
+
+	
+* TODO Resubmission I [/]
+   Thanks for the feedback, here is what I did for the resubmission:
++ [X] github URL: https://github.com/SHSold/udacity-image-filter-starter
++ [X] dev and master branch
++ [X] fix basic typescript support
+  - I explicitly imported Request and Response from 'express'
+  - I explicitly defined the arguments req and res as Request and Response, respectively
+  - I explicitly defined image_url as string
