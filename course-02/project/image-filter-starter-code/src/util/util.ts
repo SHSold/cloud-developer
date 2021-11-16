@@ -1,6 +1,13 @@
 import fs from "fs";
 import Jimp = require("jimp");
 
+export const is_negative = (x: number) => {
+	if (x < 0){
+		return true;
+	}
+	return false;
+}
+
 // filterImageFromURL
 // helper function to download, filter, and save the filtered image locally
 // returns the absolute path to the local image

@@ -18,7 +18,7 @@
   - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=asiuasoias;ivuse8w4we98p89f3wr8qw3rqw8
 
 	
-* TODO Resubmission I [/]
+* TODO Resubmission I [3/3]
    Thanks for the feedback, here is what I did for the resubmission:
 + [X] github URL: https://github.com/SHSold/udacity-image-filter-starter
 + [X] dev and master branch
