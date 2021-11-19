@@ -1,8 +1,8 @@
 export const config = {
   "dev": {
     "username": "postgres",
-    "password": "stefan",
-    "database": "cars",
+    "password": "postgres",
+    "database": "udagram",
     "host": "localhost",
     "dialect": "postgres",
     "aws_region": "us-east-1",
