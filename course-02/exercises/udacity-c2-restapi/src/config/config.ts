@@ -6,7 +6,7 @@ export const config = {
     "host": "localhost",
     "dialect": "postgres",
     "aws_region": "us-east-1",
-    "aws_profile": "stefan-dev",
+    "aws_profile": "unknown-profile",
     "aws_media_bucket": "stefan-udacity-dump"
   },
   "prod": {
@@ -15,5 +15,8 @@ export const config = {
     "database": "udagram_prod",
     "host": "",
     "dialect": "postgres"
-  }
+  },
+	"jwt":{
+		"secret": "helloworld"
+	}
 }

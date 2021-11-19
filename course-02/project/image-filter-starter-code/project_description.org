@@ -20,7 +20,12 @@
 	
 * TODO Resubmission I [3/3]
    Thanks for the feedback, here is what I did for the resubmission:
-+ [X] github URL: https://github.com/SHSold/udacity-image-filter-starter
++ [X] Github Repository:
+  - The full repo is here:
+	* https://github.com/SHSold/cloud-developer.git
+	* git@github.com:SHSold/cloud-developer.git
+  - The project is here:
+	* https://github.com/SHSold/cloud-developer/tree/master/course-02/project/image-filter-starter-code
 + [X] dev and master branch
 + [X] fix basic typescript support
   - I explicitly imported Request and Response from 'express'
