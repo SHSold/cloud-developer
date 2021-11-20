@@ -37,14 +37,14 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
     
 	// Bearer "token"
     const token_bearer = req.headers.authorization.split(' ');
-    if(token_bearer.length != 4){
+    if(token_bearer.length < 2){
 		console.log('token_bearer problem')
 		console.log(token_bearer)
 		console.log(token_bearer.length)
         return res.status(401).send({ message: 'Malformed token.' });
     }
     
-    const token = token_bearer[3];
+    const token = token_bearer[token_bearer.length - 1];
 
 	// put the secret in here
     return jwt.verify(token, config.jwt.secret, (err, decoded) => {
