@@ -18,7 +18,7 @@ router.get('/', async (req: Request, res: Response) => {
 
 //@TODO
 //Add an endpoint to GET a specific resource by Primary Key
-router.get('/lump', async (req: Request, res: Response) => {
+router.get('/pk', async (req: Request, res: Response) => {
 	let { id } = req.query;
 
 	if (!id){

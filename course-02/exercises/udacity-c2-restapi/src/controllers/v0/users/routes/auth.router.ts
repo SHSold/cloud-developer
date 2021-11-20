@@ -31,16 +31,20 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
     // console.warn("auth.router not yet implemented, you'll cover this in lesson 5")
     // return next();
     if (!req.headers || !req.headers.authorization){
+		console.log('headers are unequal')
         return res.status(401).send({ message: 'No authorization headers.' });
     }
     
 	// Bearer "token"
     const token_bearer = req.headers.authorization.split(' ');
-    if(token_bearer.length != 2){
+    if(token_bearer.length != 4){
+		console.log('token_bearer problem')
+		console.log(token_bearer)
+		console.log(token_bearer.length)
         return res.status(401).send({ message: 'Malformed token.' });
     }
     
-    const token = token_bearer[1];
+    const token = token_bearer[3];
 
 	// put the secret in here
     return jwt.verify(token, config.jwt.secret, (err, decoded) => {
