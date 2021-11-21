@@ -13,7 +13,7 @@
     -   [no decent image\_url given](http://image-filter-stefan-dev-dev4.us-east-1.elasticbeanstalk.com/filteredimage?image_url=asiuasoias;ivuse8w4we98p89f3wr8qw3rqw8)
 
 
-# Resubmission 1 <code>[3/3]</code>
+# Resubmission <code>[3/3]</code>
 
 Thanks for the feedback, here is what I did for the resubmission:
 
