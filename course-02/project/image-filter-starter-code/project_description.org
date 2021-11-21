@@ -6,19 +6,19 @@
 #+STARTUP: entitiespretty overview
 #+OPTIONS: ^:nil toc:nil
 
-* DONE Requirements [6/6]
+* Requirements [3/3]
 + [X] a (local) Git Repo
 + [X] Screenshots of the Elastic Beanstalk Application Dashboard after
   Deployment (I hope this is what you wanted to see).
 + [X] Link to the endpoint URL for a running elastic beanstalk deployment:
   You can try these:
-  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com
-  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=
-  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.hdwallpaper.nu/wp-content/uploads/2015/02/Funny-Cat-Hidden.jpg
-  - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=asiuasoias;ivuse8w4we98p89f3wr8qw3rqw8
+  - [[http://image-filter-stefan-dev-dev4.us-east-1.elasticbeanstalk.com/][entrypoint]]
+  - [[http://image-filter-stefan-dev-dev4.us-east-1.elasticbeanstalk.com/filteredimage?image_url=][no image_url given]]
+  - [[http://image-filter-stefan-dev-dev4.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.hdwallpaper.nu/wp-content/uploads/2015/02/Funny-Cat-Hidden.jpg][decent image_url given]]
+  - [[http://image-filter-stefan-dev-dev4.us-east-1.elasticbeanstalk.com/filteredimage?image_url=asiuasoias;ivuse8w4we98p89f3wr8qw3rqw8][no decent image_url given]]
 
 	
-* TODO Resubmission 1 [3/3]
+* Resubmission 1 [3/3]
    Thanks for the feedback, here is what I did for the resubmission:
 + [X] Github Repository:
   - The full repo is here:
