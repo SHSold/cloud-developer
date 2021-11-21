@@ -4,7 +4,7 @@
 #+TITLE: Project Udagram: Your Own Instagram
 #+FILETAGS: :udacity:nanodegree:cloud:building-and-deploying:Sequelize:
 #+STARTUP: entitiespretty overview
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil toc:nil
 
 * DONE Requirements [6/6]
 + [X] a (local) Git Repo
@@ -18,7 +18,7 @@
   - http://image-filter-stefan-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=asiuasoias;ivuse8w4we98p89f3wr8qw3rqw8
 
 	
-* TODO Resubmission I [3/3]
+* TODO Resubmission 1 [3/3]
    Thanks for the feedback, here is what I did for the resubmission:
 + [X] Github Repository:
   - The full repo is here:
